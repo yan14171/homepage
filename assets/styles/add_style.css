@@ -1,45 +1,54 @@
 .contacts li a.twitter:hover {
-    color: #00B8FF;
-  }
-  .contacts li a.instagram:hover {
-    color: rgb(225,48,108);
-  }
-  .contacts li:hover{
-    transform: scale(1.1);
-  }
-  main {
-    background-image: url("../images/american-flag.jpg");
-   background-color: #cccccc;
-   background-size: cover;
-   background-position: center;
+  color: #00b8ff;
+}
+
+.contacts li a.instagram:hover {
+  color: rgb(225, 48, 108);
+}
+
+.contacts li:hover {
+  transform: scale(1.1);
+}
+
+main {
+  background-image: url("../images/american-flag.jpg");
+  background-color: #ccc;
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-  .ten.wide.column{
-    transition: background-color 0.3s ease-out 100ms;
-    
-  }
-  .six.wide.column{
-    transition: background-color 0.3s ease-out 100ms;
-  }
-  .ten.wide.column:hover{
-  background-color:rgb(228, 226, 226);
+  background-repeat: no-repeat;
+}
+
+.ten.wide.column {
+  transition: background-color 0.3s ease-out 100ms;
+}
+
+.six.wide.column {
+  transition: background-color 0.3s ease-out 100ms;
+}
+
+.ten.wide.column:hover {
+  background-color: rgb(228, 226, 226);
   transform: scale(1.009);
-  }
-  .six.wide.column:hover{
-  background-color:rgb(228, 226, 226);
+}
+
+.six.wide.column:hover {
+  background-color: rgb(228, 226, 226);
   transform: scale(1.009);
-  }
-  
-  .avatar-wrapper:hover .active{
-    display: block;
-  }
-  .avatar-wrapper:hover .static{
-    display: none;
-  }
-  .static{
-  display:block;
-  }
-  .active{
-    display: none;
-  }
+}
+
+.active {
+  display: none;
+}
+
+.static {
+  display: block;
+}
+
+.avatar-wrapper:hover .active {
+  display: block;
+}
+
+.avatar-wrapper:hover .static {
+  display: none;
+}
