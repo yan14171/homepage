@@ -4,13 +4,53 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
-    <style >
+    <style>
       .contacts li a.twitter:hover {
-  color: blue;
+  color: #00B8FF;
 }
 .contacts li a.instagram:hover {
-  color: blue;
+  color: rgb(225,48,108);
 }
+.contacts li:hover{
+  transform: scale(1.1);
+}
+main {
+  background-image: url("assets/images/american-flag.jpg");
+ background-color: #cccccc;
+ background-size: cover;
+ background-position: center;
+background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.ten.wide.column{
+  transition: background-color 0.3s ease-out 100ms;
+  
+}
+.six.wide.column{
+  transition: background-color 0.3s ease-out 100ms;
+}
+.ten.wide.column:hover{
+background-color:rgb(221, 218, 218);
+transform: scale(1.009);
+}
+.six.wide.column:hover{
+background-color:rgb(221, 218, 218);
+transform: scale(1.009);
+}
+
+.avatar-wrapper:hover .active{
+  display: block;
+}
+.avatar-wrapper:hover .static{
+  display: none;
+}
+.static{
+display:block;
+}
+.active{
+  display: none;
+}
+
       </style>
   </head>
   <body>
@@ -19,11 +59,14 @@
   <!-- <header> -->
   <main> 
     <article>
-      <div class="page" style="border-color: midnightblue;">
+      <div class="page" style="border-color: #df0100">
         <div class="stackable grid">
           <div class="row">
             <div class="three wide center aligned column">
-              <!-- Avatar -->
+              <div class="avatar-wrapper">
+								<object class="avatar active" data="./assets/images/wink.gif" role="img" aria-label="My profile picture"></object>
+                <object class="avatar static" data="./assets/images/wink.jpg" role="img" aria-label="My profile picture"></object>
+              </div>
             </div>
             <div class="thirteen wide column">
               <div class="stackable grid">
@@ -325,8 +368,8 @@
               <section>
                 <h3>Languages</h3>
                 <p class="tags small">
-                  <span class="language" lang="en"> &#x1f1fa;&#x1f1f8; ENGLISH</span>
-                  <span class="language" lang="ru"> &#x1f1f7;&#x1f1fa; РУССКИЙ</span>
+                  <span class="language" lang="en"> &#127468;&#127463; ENGLISH</span>
+                  <span class="language" lang="en"> &#127482;&#x1f1f8; AMERICAN</span>
                 </p>
               </section>
               <section>
