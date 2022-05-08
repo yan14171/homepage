@@ -17,12 +17,9 @@
 }
 
 main {
-  background-image: url("../images/black-pepe.jpg");
-  background-color: #ccc;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-color: #e5e5f7;
+  opacity: 0.95;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #918e8e, #130c25 );
 }
 
 .ten.wide.column {
