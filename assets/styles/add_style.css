@@ -59,3 +59,11 @@ section{
 li{
   cursor: default;
 }
+a.project{
+  margin: 5px;
+}
+.secondary{
+  font-weight: normal;
+  margin-left: 1vw;
+  font-size: small;
+}
