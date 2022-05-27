@@ -67,3 +67,16 @@ a.project{
   margin-left: 1vw;
   font-size: small;
 }
+#language-choice-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#language-choice-bar>:nth-child(n){
+  border-right: black 2px solid;
+  padding: 0 .5vw 0 .5vw ;
+  margin: 0;
+}
+#language-choice-bar>:last-child{
+  border-right: black 0px solid;
+}
